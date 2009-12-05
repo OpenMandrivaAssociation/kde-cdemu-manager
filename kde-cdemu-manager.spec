@@ -6,6 +6,7 @@ Version:	%version
 Release:	%mkrel 1
 Summary:	A simple front-end for CDemu
 Source0:	http://kde-apps.org/CONTENT/content-files/99752-%{srcname}-%{version}.tar.gz
+Patch1:		kde-cdemu-manager-0.3-servicemenu.patch
 Group:		Graphical desktop/KDE
 License:	LGPLv2
 URL:		http://kde-apps.org/content/show.php/KDE+CDEmu+Manager?content=99752
@@ -34,6 +35,7 @@ Notifier widget.
 
 %prep
 %setup -q -n %{srcname}-%{version}
+%patch1 -p1 -b .servicemenu
 
 %build
 %cmake_kde4
