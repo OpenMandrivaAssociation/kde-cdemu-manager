@@ -3,7 +3,7 @@
 
 Name:		kde-cdemu-manager
 Version:	%version
-Release:	%mkrel 2
+Release:	%mkrel 3
 Summary:	A simple front-end for CDemu
 Source0:	http://kde-apps.org/CONTENT/content-files/99752-%{srcname}-%{version}.tar.gz
 Patch1:		kde-cdemu-manager-0.3-mdv-servicemenu.patch
