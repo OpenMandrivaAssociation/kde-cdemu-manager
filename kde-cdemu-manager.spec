@@ -46,3 +46,25 @@ find . -name '*.h' -exec chmod 644 {} \;
 %{makeinstall_std} -C build
 
 %find_lang %{srcname}
+
+
+%changelog
+* Mon Feb 27 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 0.4-1mdv2011.0
++ Revision: 781131
+- update to 0.4
+
+* Mon Dec 06 2010 Oden Eriksson <oeriksson@mandriva.com> 0.3-3mdv2011.0
++ Revision: 612555
+- the mass rebuild of 2010.1 packages
+
+* Fri Dec 11 2009 Ahmad Samir <ahmadsamir@mandriva.org> 0.3-2mdv2010.1
++ Revision: 476570
+- require cdemu >= 1.2.0
+
+* Sat Dec 05 2009 Ahmad Samir <ahmadsamir@mandriva.org> 0.3-1mdv2010.1
++ Revision: 473643
+- Add patch for servicemenu .desktop file to make it
+  compliant with XDG standards
+- import kde-cdemu-manager
+
+
