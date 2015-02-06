@@ -3,7 +3,7 @@
 Summary:	A simple KDE front-end for CDemu
 Name:		kde-cdemu-manager
 Version:	0.5.0
-Release:	1
+Release:	2
 License:	LGPLv2+
 Group:		Graphical desktop/KDE
 Url:		http://kde-apps.org/content/show.php/KDE+CDEmu+Manager?content=99752
