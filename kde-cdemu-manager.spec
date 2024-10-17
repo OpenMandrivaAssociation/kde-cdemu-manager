@@ -6,7 +6,7 @@ Version:	0.5.0
 Release:	2
 License:	LGPLv2+
 Group:		Graphical desktop/KDE
-Url:		http://kde-apps.org/content/show.php/KDE+CDEmu+Manager?content=99752
+Url:		https://kde-apps.org/content/show.php/KDE+CDEmu+Manager?content=99752
 Source0:	http://kde-apps.org/CONTENT/content-files/99752-%{srcname}-%{version}.tar.gz
 BuildRequires:	kdelibs4-devel
 Requires:	cdemu-client
