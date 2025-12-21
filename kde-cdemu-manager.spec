@@ -8,6 +8,7 @@ License:	LGPLv2+
 Group:		Graphical desktop/KDE
 Url:		https://kde-apps.org/content/show.php/KDE+CDEmu+Manager?content=99752
 Source0:	http://kde-apps.org/CONTENT/content-files/99752-%{srcname}-%{version}.tar.gz
+BuildRequires:	make
 BuildRequires:	kdelibs4-devel
 Requires:	cdemu-client
 
